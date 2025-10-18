@@ -1,6 +1,6 @@
 # Embest EC9100 Buildroot
 
-Build and run newer U-Boot and Kernel
+Build and run newer U-Boot and Kernels for Embest EC9100 SBC (AKA SBC-IMX6UL on Amazon)
 
 ### Instructions (For 6.17 Kernel)
 
