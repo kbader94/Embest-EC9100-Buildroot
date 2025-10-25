@@ -1,0 +1,10 @@
+# Needed so uart_probe.ko can link against tty_find_polling_driver()
+CONFIG_CONSOLE_POLL=y
+
+# Make sure modules are enabled (required to build OOT modules)
+CONFIG_MODULES=y
+
+# Likely already set via your defconfig, but harmless to assert:
+CONFIG_TTY=y
+CONFIG_SERIAL_IMX=y
+CONFIG_SERIAL_IMX_CONSOLE=y
